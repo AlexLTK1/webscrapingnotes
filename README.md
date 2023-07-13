@@ -1,5 +1,5 @@
-# webscrapingnotes
-my notes for all the web scraping methods, best practices and proxy.
+# What is this?
+This is just my notes for scrapy, its web scraping methods, best practices and proxy.
 
 # Compare to beatiful soup and selenium
 Beautiful soup is good for small scale web scraping application where the data you want is returned in the html response.
