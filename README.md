@@ -39,3 +39,28 @@ why should we do this?
 because if we have multiple projects, and uses the same modules but different version of it,
 it might be troublesome to upgrade, and it might conflict with each other.
 
+# Set up a virtual enviornment
+
+```
+pip install virtualenv
+```
+then Navigate to the folder where you want to create the virtual environment, and run the virtualenv command.
+```
+cd /folder
+virtualenv venv .
+```
+The "dot" in the above command indicate you want to install virtualenv on this folder,
+you can also change the directory before installing it.
+
+After that, run the following script to activate the virtual enviornment
+```
+.\scripts\activate
+```
+Successfully activate will result in a bracket () around the folder name.
+you can now install any modules for your project that only belongs to this main folder.
+
+# Installing Scrapy
+```
+pip install scrapy
+```
+To check if its successfully installed, just type scrapy into the terminal, and you should see a list of commands.
